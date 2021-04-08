@@ -219,21 +219,21 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
+                             url="https://t.me/brtoficcal")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/SenkuRobot?start=help"),
+                            url="https://t.me/brtoficcal?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
+                             url="https://t.me/brtoficcal")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/FtSasaki/SenkuRobot")
+                             text=" ❤️ donate  ",
+                             url="https://t.me/brtoficcal")
                     
                     ]
                    ]
