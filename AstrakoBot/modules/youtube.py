@@ -70,7 +70,7 @@ def youtube_callback(update: Update, context: CallbackContext):
         "format": "bestaudio/best",
         "addmetadata": True,
         "key": "FFmpegMetadata",
-        "writethumbnail": True,
+        "writethumbnail": False,
         "prefer_ffmpeg": True,
         "geo_bypass": True,
         "nocheckcertificate": True,
@@ -134,8 +134,7 @@ def youtube_callback(update: Update, context: CallbackContext):
                 )
 
     try:
-        for f in glob.glob("*.mp*"):
-            os.remove(f)
+        os.remove(f"{rip_data['id']}.{codec}")
     except Exception:
         pass
 
