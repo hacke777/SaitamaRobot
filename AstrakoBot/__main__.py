@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from AstrakoBot import (
+from Nihaleesibot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -98,7 +98,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+Nihaleesibot_IMG = ""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
@@ -231,7 +231,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
+                                url=f"https://t.me/brtoficcal",
                             ),
                         ],
                         [
@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Source code",
-                                url="https://github.com/Astrako/AstrakoBot",
+                                url="https://t.me/brtoficcal",
                             )
                         ],
                     ]
